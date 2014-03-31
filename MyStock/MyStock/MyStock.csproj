@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C6E3C668-6E96-4C96-836F-F508D60E5741}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyStock</RootNamespace>
+    <AssemblyName>MyStock</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DBHelper.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geneliskonto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geneliskonto.Designer.cs">
+      <DependentUpon>Geneliskonto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenelKasaKari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenelKasaKari.Designer.cs">
+      <DependentUpon>GenelKasaKari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciIslem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciIslem.Designer.cs">
+      <DependentUpon>KullaniciIslem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginSayfasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginSayfasi.Designer.cs">
+      <DependentUpon>LoginSayfasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SatilanUrunler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SatilanUrunler.Designer.cs">
+      <DependentUpon>SatilanUrunler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StokDataSet.cs">
+      <DependentUpon>StokDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StokDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StokDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TariheGoreKazanc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TariheGoreKazanc.Designer.cs">
+      <DependentUpon>TariheGoreKazanc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Toptanci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Toptanci.Designer.cs">
+      <DependentUpon>Toptanci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="urunislem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="urunislem.Designer.cs">
+      <DependentUpon>urunislem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UrunSatis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UrunSatis.Designer.cs">
+      <DependentUpon>UrunSatis.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geneliskonto.resx">
+      <DependentUpon>Geneliskonto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenelKasaKari.resx">
+      <DependentUpon>GenelKasaKari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciIslem.resx">
+      <DependentUpon>KullaniciIslem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginSayfasi.resx">
+      <DependentUpon>LoginSayfasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SatilanUrunler.resx">
+      <DependentUpon>SatilanUrunler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TariheGoreKazanc.resx">
+      <DependentUpon>TariheGoreKazanc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Toptanci.resx">
+      <DependentUpon>Toptanci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="urunislem.resx">
+      <DependentUpon>urunislem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UrunSatis.resx">
+      <DependentUpon>UrunSatis.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="StokDataSet.xsc">
+      <DependentUpon>StokDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="StokDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>StokDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="StokDataSet.xss">
+      <DependentUpon>StokDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stock-Prophet.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

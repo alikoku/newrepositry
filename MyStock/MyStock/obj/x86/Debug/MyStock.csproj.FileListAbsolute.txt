@@ -1,0 +1,45 @@
+c:\documents and settings\mehmet\my documents\visual studio 2010\Projects\MyStock\MyStock\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\mehmet\my documents\visual studio 2010\Projects\MyStock\MyStock\obj\x86\Debug\MyStock.Properties.Resources.resources
+c:\documents and settings\mehmet\my documents\visual studio 2010\Projects\MyStock\MyStock\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\documents and settings\mehmet\my documents\visual studio 2010\Projects\MyStock\MyStock\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\mehmet\my documents\visual studio 2010\Projects\MyStock\MyStock\bin\Debug\MyStock.exe
+C:\Documents and Settings\mehmet\my documents\visual studio 2010\Projects\MyStock\MyStock\bin\Debug\MyStock.pdb
+C:\Documents and Settings\mehmet\my documents\visual studio 2010\Projects\MyStock\MyStock\obj\x86\Debug\MyStock.exe
+C:\Documents and Settings\mehmet\my documents\visual studio 2010\Projects\MyStock\MyStock\obj\x86\Debug\MyStock.pdb
+C:\MyStock\MyStock\obj\x86\Debug\MyStock.exe
+C:\MyStock\MyStock\obj\x86\Debug\MyStock.pdb
+C:\MyStock\MyStock\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\MyStock\MyStock\obj\x86\Debug\MyStock.Form1.resources
+C:\MyStock\MyStock\obj\x86\Debug\MyStock.Properties.Resources.resources
+C:\MyStock\MyStock\obj\x86\Debug\MyStock.urunislem.resources
+C:\MyStock\MyStock\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\MyStock\MyStock\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\MyStock\MyStock\bin\Debug\MyStock.exe.config
+C:\MyStock\MyStock\bin\Debug\MyStock.exe
+C:\MyStock\MyStock\bin\Debug\MyStock.pdb
+C:\MyStock\MyStock\obj\x86\Debug\MyStock.LoginSayfasi.resources
+C:\MyStock\MyStock\obj\x86\Debug\MyStock.Geneliskonto.resources
+C:\MyStock\MyStock\obj\x86\Debug\MyStock.GenelKasaKari.resources
+C:\MyStock\MyStock\obj\x86\Debug\MyStock.SatilanUrunler.resources
+C:\MyStock\MyStock\obj\x86\Debug\MyStock.TariheGoreKazanc.resources
+C:\MyStock\MyStock\obj\x86\Debug\MyStock.Toptanci.resources
+C:\MyStock\MyStock\obj\x86\Debug\MyStock.KullaniciIslem.resources
+C:\MyStock\MyStock\obj\x86\Debug\MyStock.UrunSatis.resources
+C:\Users\Casper\Desktop\MyStock (2)\MyStock\MyStock\bin\Debug\MyStock.exe.config
+C:\Users\Casper\Desktop\MyStock (2)\MyStock\MyStock\obj\x86\Debug\MyStock.exe
+C:\Users\Casper\Desktop\MyStock (2)\MyStock\MyStock\obj\x86\Debug\MyStock.pdb
+C:\Users\Casper\Desktop\MyStock (2)\MyStock\MyStock\bin\Debug\MyStock.exe
+C:\Users\Casper\Desktop\MyStock (2)\MyStock\MyStock\bin\Debug\MyStock.pdb
+C:\Users\Casper\Desktop\MyStock (2)\MyStock\MyStock\obj\x86\Debug\MyStock.csprojResolveAssemblyReference.cache
+C:\Users\Casper\Desktop\MyStock (2)\MyStock\MyStock\obj\x86\Debug\MyStock.Form1.resources
+C:\Users\Casper\Desktop\MyStock (2)\MyStock\MyStock\obj\x86\Debug\MyStock.Geneliskonto.resources
+C:\Users\Casper\Desktop\MyStock (2)\MyStock\MyStock\obj\x86\Debug\MyStock.GenelKasaKari.resources
+C:\Users\Casper\Desktop\MyStock (2)\MyStock\MyStock\obj\x86\Debug\MyStock.KullaniciIslem.resources
+C:\Users\Casper\Desktop\MyStock (2)\MyStock\MyStock\obj\x86\Debug\MyStock.LoginSayfasi.resources
+C:\Users\Casper\Desktop\MyStock (2)\MyStock\MyStock\obj\x86\Debug\MyStock.Properties.Resources.resources
+C:\Users\Casper\Desktop\MyStock (2)\MyStock\MyStock\obj\x86\Debug\MyStock.SatilanUrunler.resources
+C:\Users\Casper\Desktop\MyStock (2)\MyStock\MyStock\obj\x86\Debug\MyStock.TariheGoreKazanc.resources
+C:\Users\Casper\Desktop\MyStock (2)\MyStock\MyStock\obj\x86\Debug\MyStock.Toptanci.resources
+C:\Users\Casper\Desktop\MyStock (2)\MyStock\MyStock\obj\x86\Debug\MyStock.urunislem.resources
+C:\Users\Casper\Desktop\MyStock (2)\MyStock\MyStock\obj\x86\Debug\MyStock.UrunSatis.resources
+C:\Users\Casper\Desktop\MyStock (2)\MyStock\MyStock\obj\x86\Debug\MyStock.csproj.GenerateResource.Cache
